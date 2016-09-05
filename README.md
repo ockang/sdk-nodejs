@@ -134,8 +134,7 @@ mp.getPayment (qs["id"])
         },
         function error (err) {
             console.log (err);
-        }
-    });
+        });
 ```
 
 #### Cancel (only for pending payments)
